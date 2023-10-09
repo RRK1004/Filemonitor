@@ -34,6 +34,7 @@ This project is a Filesystem Change Monitor that utilizes MQTT (Message Queuing 
 
 - Exec Docker Container with command line arguments in another terminal
     'docker exec -it containerid python3 FileMonitor.py --address 127.0.0.1 --port 1883 --path /app'
+  
         - `--path`, indicating which directory or file to monitor,
         - `--address`, indicating the MQTT broker address,
         - `--port`, indicating the MQTT broker port.
