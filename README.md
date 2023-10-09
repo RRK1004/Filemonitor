@@ -42,12 +42,8 @@ This project is a Filesystem Change Monitor that utilizes MQTT (Message Queuing 
  **UseCase**
  
 - File Modifications
-
-    
-
 - Large File sizes
 - Frequent Changes
-- Mqtt Connection status check
 - Check if Path is a Directory
 - Check Directory Permissions
 - Exception Handling
