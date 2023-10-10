@@ -24,12 +24,15 @@ This project is a Filesystem Change Monitor that utilizes MQTT (Message Queuing 
 **Installation :**
 - Clone the repo
     'git clone "REPO LINK"'
+  
     'cd FileMonitor' 
 
-- Build Docker image 
+- Build Docker image
+  
     'docker image -t imagename .'
 
 - Run Docker Container with builded image in one terminal
+- 
     'docker run imagename &'
 
 - Exec Docker Container with command line arguments in another terminal
